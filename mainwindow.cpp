@@ -31,8 +31,8 @@ MainWindow::~MainWindow()
 void MainWindow::populateMovieDB() {
 
     movieDB = {
-        {"Interstellar", "Sci-Fi", "Curious", "Evening", "A visually stunning journey through space and time.", ":/images/interstellar.png" }
-        // {"The Notebook", "Romance", "Emotional", "Late Night", "A heartfelt love story that spans decades."},
+        {"Interstellar", "Sci-Fi", "Curious", "Evening", "A visually stunning journey through space and time.", ":/images/images/interstellar.png" },
+        {"The Notebook", "Romance", "Emotional", "Late Night", "A heartfelt love story that spans decades.", ":/images/images/thenotebook.jpg"},
         // {"John Wick", "Action", "Excited", "Late Night", "A relentless assassin seeks revenge with style."},
         // {"Inside Out", "Comedy", "Chill", "Morning", "An animated dive into the emotions of a young girl."},
         // {"Parasite", "Thriller", "Curious", "Evening", "A gripping tale of class conflict and deception."},

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/interstellar.png</file>
+        <file>images/thenotebook.jpg</file>
+    </qresource>
+</RCC>

@@ -22,19 +22,10 @@ set(PROJECT_SOURCES
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     find_package(Qt6 REQUIRED COMPONENTS Core)
 
-target_sources(SmartStreamingPlatform
-  PRIVATE
-    test.qrc
-)
-
-    qt_add_executable(Smar
-        resources.qrctStreamingPlatform
+    qt_add_executable(SmartStreamingPlatform
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        MoodPopup.ui
-
-        users.txt
-        loginwindow.h loginwindow.cpp loginwindow.ui
+        resources.qrc
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET SmartStreamingPlatform APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
