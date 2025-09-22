@@ -20,9 +20,21 @@ set(PROJECT_SOURCES
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
-    qt_add_executable(SmartStreamingPlatform
+    find_package(Qt6 REQUIRED COMPONENTS Core)
+
+target_sources(SmartStreamingPlatform
+  PRIVATE
+    test.qrc
+)
+
+    qt_add_executable(Smar
+        resources.qrctStreamingPlatform
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        MoodPopup.ui
+
+        users.txt
+        loginwindow.h loginwindow.cpp loginwindow.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET SmartStreamingPlatform APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
@@ -43,6 +55,7 @@ else()
 endif()
 
 target_link_libraries(SmartStreamingPlatform PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+target_link_libraries(SmartStreamingPlatform PRIVATE Qt6::Core)
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an

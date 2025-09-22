@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QRandomGenerator>
 
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
@@ -28,17 +29,18 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::populateMovieDB() {
+
     movieDB = {
-        {"Interstellar", "Sci-Fi", "Curious", "Evening", "A visually stunning journey through space and time."},
-        {"The Notebook", "Romance", "Emotional", "Late Night", "A heartfelt love story that spans decades."},
-        {"John Wick", "Action", "Excited", "Late Night", "A relentless assassin seeks revenge with style."},
-        {"Inside Out", "Comedy", "Chill", "Morning", "An animated dive into the emotions of a young girl."},
-        {"Parasite", "Thriller", "Curious", "Evening", "A gripping tale of class conflict and deception."},
-        {"Soul", "Animation", "Chill", "Morning", "A jazz musician discovers the meaning of life."},
-        {"A Quiet Place", "Horror", "Excited", "Late Night", "Survival in silence against deadly creatures."},
-        {"La La Land", "Romance", "Emotional", "Evening", "A musical journey of love and ambition."},
-        {"The Martian", "Sci-Fi", "Curious", "Morning", "An astronaut survives alone on Mars using science."},
-        {"Zootopia", "Comedy", "Chill", "Evening", "A bunny cop solves a mystery in a city of animals."}
+        {"Interstellar", "Sci-Fi", "Curious", "Evening", "A visually stunning journey through space and time.", ":/images/interstellar.png" }
+        // {"The Notebook", "Romance", "Emotional", "Late Night", "A heartfelt love story that spans decades."},
+        // {"John Wick", "Action", "Excited", "Late Night", "A relentless assassin seeks revenge with style."},
+        // {"Inside Out", "Comedy", "Chill", "Morning", "An animated dive into the emotions of a young girl."},
+        // {"Parasite", "Thriller", "Curious", "Evening", "A gripping tale of class conflict and deception."},
+        // {"Soul", "Animation", "Chill", "Morning", "A jazz musician discovers the meaning of life."},
+        // {"A Quiet Place", "Horror", "Excited", "Late Night", "Survival in silence against deadly creatures."},
+        // {"La La Land", "Romance", "Emotional", "Evening", "A musical journey of love and ambition."},
+        // {"The Martian", "Sci-Fi", "Curious", "Morning", "An astronaut survives alone on Mars using science."},
+        // {"Zootopia", "Comedy", "Chill", "Evening", "A bunny cop solves a mystery in a city of animals."}
     };
 }
 
@@ -49,7 +51,13 @@ void MainWindow::recommendMovie() {
 
     for (const Movie& m : movieDB) {
         if (m.genre == genre && m.mood == mood && m.timeSlot == time) {
-            ui->outputTextEdit->setText("🎥 " + m.title + "\n📝 " + m.description);
+            QString html = QString(R"(
+                <h2>🎥 %1</h2>
+                <p><img src="%2" width="300"></p>
+                <p>📝 %3</p>
+                <p>  </p>
+            )").arg(m.title, m.imagePath, m.description);
+            ui->outputTextEdit->setHtml(html);
             return;
         }
     }
@@ -62,5 +70,11 @@ void MainWindow::surprisePick() {
 
     int index = QRandomGenerator::global()->bounded(movieDB.size());
     Movie m = movieDB[index];
-    ui->outputTextEdit->setText("🎲 Surprise Pick: " + m.title + "\n📝 " + m.description);
+    QString html = QString(R"(
+        <h2>🎲 Surprise Pick: %1</h2>
+        <p><img src="%2" width="300"></p>
+        <p>📝 %3</p>
+    )").arg(m.title, m.imagePath, m.description);
+
+    ui->outputTextEdit->setHtml(html);
 }
