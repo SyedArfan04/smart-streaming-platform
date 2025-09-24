@@ -31,16 +31,16 @@ MainWindow::~MainWindow()
 void MainWindow::populateMovieDB() {
 
     movieDB = {
-        {"Interstellar", "Sci-Fi", "Curious", "Evening", "A visually stunning journey through space and time.", ":/images/images/interstellar.png" },
-        {"The Notebook", "Romance", "Emotional", "Late Night", "A heartfelt love story that spans decades.", ":/images/images/thenotebook.jpg"},
-        // {"John Wick", "Action", "Excited", "Late Night", "A relentless assassin seeks revenge with style."},
-        // {"Inside Out", "Comedy", "Chill", "Morning", "An animated dive into the emotions of a young girl."},
-        // {"Parasite", "Thriller", "Curious", "Evening", "A gripping tale of class conflict and deception."},
-        // {"Soul", "Animation", "Chill", "Morning", "A jazz musician discovers the meaning of life."},
-        // {"A Quiet Place", "Horror", "Excited", "Late Night", "Survival in silence against deadly creatures."},
-        // {"La La Land", "Romance", "Emotional", "Evening", "A musical journey of love and ambition."},
-        // {"The Martian", "Sci-Fi", "Curious", "Morning", "An astronaut survives alone on Mars using science."},
-        // {"Zootopia", "Comedy", "Chill", "Evening", "A bunny cop solves a mystery in a city of animals."}
+        {"Interstellar", "Sci-Fi", "Curious", "Evening", "A visually stunning journey through space and time.", ":/images/images/interstellar.png", "https://youtu.be/zSWdZVtXT7E" },
+        {"The Notebook", "Romance", "Emotional", "Late Night", "A heartfelt love story that spans decades.", ":/images/images/thenotebook.jpg", "https://youtu.be/BjJcYdEOI0k"},
+        {"John Wick", "Action", "Excited", "Late Night", "A relentless assassin seeks revenge with style.", ":/images/images/johnwick.png", "https://youtu.be/qEVUtrk8_B4"},
+        {"Inside Out", "Comedy", "Chill", "Morning", "An animated dive into the emotions of a young girl.", ":/images/images/insideout.jpg", "https://youtu.be/BjJcYdEOI0k"},
+        {"Parasite", "Thriller", "Curious", "Evening", "A gripping tale of class conflict and deception.", ":/images/images/parasite.png", "https://youtu.be/5xH0HfJHsaY"},
+        {"Soul", "Animation", "Chill", "Morning", "A jazz musician discovers the meaning of life.", ":/images/images/soul.jpg", "https://youtu.be/xOsLIiBStEs"},
+        {"A Quiet Place", "Horror", "Excited", "Late Night", "Survival in silence against deadly creatures.", ":/images/images/aquietplace.png", "https://youtu.be/WR7cc5t7tv8"},
+        {"La La Land", "Romance", "Emotional", "Evening", "A musical journey of love and ambition.", ":/images/images/lalaland.png", "https://youtu.be/0pdqf4P9MB8"},
+        {"The Martian", "Sci-Fi", "Curious", "Morning", "An astronaut survives alone on Mars using science.", ":/images/images/themartian.jpg", "https://youtu.be/Ue4PCI0NamI"},
+        {"Zootopia", "Comedy", "Chill", "Evening", "A bunny cop solves a mystery in a city of animals.", ":/images/images/zootopia.png", "https://youtu.be/Y0c3nKWhlIA"}
     };
 }
 
