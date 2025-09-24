@@ -2,5 +2,13 @@
     <qresource prefix="/images">
         <file>images/interstellar.png</file>
         <file>images/thenotebook.jpg</file>
+        <file>images/aquietplace.png</file>
+        <file>images/insideout.jpg</file>
+        <file>images/johnwick.png</file>
+        <file>images/lalaland.png</file>
+        <file>images/parasite.png</file>
+        <file>images/soul.jpg</file>
+        <file>images/themartian.jpg</file>
+        <file>images/zootopia.png</file>
     </qresource>
 </RCC>

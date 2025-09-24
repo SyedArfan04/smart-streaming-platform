@@ -16,6 +16,7 @@ struct Movie {
     QString timeSlot;
     QString description;
     QString imagePath;
+    QString trailerUrl;
 };
 
 class MainWindow : public QMainWindow
