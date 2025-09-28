@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-130032715ecc8c031e7a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SmartStreamingPlatform",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SmartStreamingPlatform::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmartStreamingPlatform-Debug-215e21bcf3362cb9c729.json",
+					"name" : "SmartStreamingPlatform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SmartStreamingPlatform_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmartStreamingPlatform_autogen-Debug-8b5b2fa9d01e44dd06ae.json",
+					"name" : "SmartStreamingPlatform_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SmartStreamingPlatform_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SmartStreamingPlatform_autogen_timestamp_deps-Debug-a7ccf62293e08e64d7f4.json",
+					"name" : "SmartStreamingPlatform_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/G15 AMD Power/Documents/degree sem3 y2/Digi Comp/SmartStreamingPlatform/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/G15 AMD Power/Documents/degree sem3 y2/Digi Comp/SmartStreamingPlatform"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

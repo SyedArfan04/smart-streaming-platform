@@ -1,0 +1,22 @@
+# ninja log v6
+289	3412	7804290051193136	CMakeFiles/SmartStreamingPlatform.dir/mainwindow.cpp.obj	115158fc0bd82a31
+60	288	7804290048901447	C:/Users/G15 AMD Power/Documents/degree sem3 y2/Digi Comp/SmartStreamingPlatform/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/SmartStreamingPlatform_autogen/mocs_compilation.cpp	2f50af8ca0593e0f
+60	288	7804290048901447	SmartStreamingPlatform_autogen/timestamp	2f50af8ca0593e0f
+3412	3975	7804290082425236	SmartStreamingPlatform.exe	2c5852f347911565
+759	3752	7802744215802961	CMakeFiles/SmartStreamingPlatform.dir/SmartStreamingPlatform_autogen/mocs_compilation.cpp.obj	a32a172f59d84376
+60	288	7804290048901447	SmartStreamingPlatform_autogen/mocs_compilation.cpp	2f50af8ca0593e0f
+60	288	7804290048901447	C:/Users/G15 AMD Power/Documents/degree sem3 y2/Digi Comp/SmartStreamingPlatform/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/SmartStreamingPlatform_autogen/timestamp	2f50af8ca0593e0f
+764	3734	7802744215843350	CMakeFiles/SmartStreamingPlatform.dir/main.cpp.obj	8f2a4322033e0653
+19	837	7804290681603997	build.ninja	27b11683f44d1d39
+219	375	7802737007307027	SmartStreamingPlatform_autogen/EWIEGA46WW/qrc_resources.cpp	881e35ba216868cb
+219	375	7802737007307027	C:/Users/G15 AMD Power/Documents/degree sem3 y2/Digi Comp/SmartStreamingPlatform/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/SmartStreamingPlatform_autogen/EWIEGA46WW/qrc_resources.cpp	881e35ba216868cb
+379	2875	7802737007475671	CMakeFiles/SmartStreamingPlatform.dir/SmartStreamingPlatform_autogen/EWIEGA46WW/qrc_resources.cpp.obj	3850cc1f9f6be283
+36	208	7804290686010523	SmartStreamingPlatform_autogen/timestamp	2f50af8ca0593e0f
+36	208	7804290686010523	SmartStreamingPlatform_autogen/mocs_compilation.cpp	2f50af8ca0593e0f
+36	208	7804290686010523	C:/Users/G15 AMD Power/Documents/degree sem3 y2/Digi Comp/SmartStreamingPlatform/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/SmartStreamingPlatform_autogen/timestamp	2f50af8ca0593e0f
+36	208	7804290686010523	C:/Users/G15 AMD Power/Documents/degree sem3 y2/Digi Comp/SmartStreamingPlatform/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/SmartStreamingPlatform_autogen/mocs_compilation.cpp	2f50af8ca0593e0f
+210	857	7804290694089664	SmartStreamingPlatform_autogen/EWIEGA46WW/qrc_resources.cpp	881e35ba216868cb
+210	857	7804290694089664	C:/Users/G15 AMD Power/Documents/degree sem3 y2/Digi Comp/SmartStreamingPlatform/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/SmartStreamingPlatform_autogen/EWIEGA46WW/qrc_resources.cpp	881e35ba216868cb
+857	4510	7804290694219716	CMakeFiles/SmartStreamingPlatform.dir/mainwindow.cpp.obj	115158fc0bd82a31
+861	13740	7804290694259732	CMakeFiles/SmartStreamingPlatform.dir/SmartStreamingPlatform_autogen/EWIEGA46WW/qrc_resources.cpp.obj	3850cc1f9f6be283
+13740	14097	7804290823053280	SmartStreamingPlatform.exe	2c5852f347911565
